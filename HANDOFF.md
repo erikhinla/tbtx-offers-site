@@ -42,3 +42,6 @@ None.
 - Brand colors are accents only: tbtx #d01e98, bbai #b37157, bbm #69f2c4, ink #1F1F1F, bg #E9E5DE.
 - Source: /root/tbtx-next-ecosystem/hermes/COPY-RULES.md, COPY-STYLE-GUIDE.md, DESIGN-GUIDE.md on the VPS.
 - Never commit or print secrets.
+
+## Oct 24, 2026 update
+Nested brutalist version (industrial-brutalist-ui, MuseoModerno, #d01e98, #383838). Files: index.html, bks.css, fonts/. Static site, no build step. The previous version is in git history.
