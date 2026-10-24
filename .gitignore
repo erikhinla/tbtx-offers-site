@@ -1,0 +1,9 @@
+node_modules/
+.next/
+.env*
+local-settings/
+*.pem
+*.key
+*.mp4
+*.zip
+*.tgz

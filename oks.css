@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap');
+:root{--bg:#E9E5DE;--ink:#1F1F1F;--sub:#3d3d3d;--line:#1F1F1F22;--m:#d01e98;--c:#a8654b}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.45 "Instrument Sans",Helvetica,Arial,sans-serif;max-width:1240px;margin:0 auto;padding:0 clamp(18px,4vw,48px)}
+.bar{display:flex;justify-content:space-between;align-items:center;height:56px;border-bottom:1px solid var(--line)}
+.logo{font-weight:700;font-size:20px;letter-spacing:-.01em;color:inherit;text-decoration:none}
+.bar nav{display:flex;gap:6px}.bar nav a,.bar nav button{font-family:inherit;font-size:12px;font-weight:600;line-height:1;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);text-decoration:none;border:1px solid var(--ink);background:none;padding:7px 10px;cursor:pointer}
+h1,h2{font-family:"Instrument Sans",Helvetica,Arial,sans-serif;font-weight:700;letter-spacing:-.015em;margin:0}
+h1{font-size:clamp(30px,4.6vw,58px);line-height:1.06;max-width:20ch}
+h2{font-size:clamp(20px,1.8vw,24px);line-height:1.15}
+.kick,.tag{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--c);margin:0 0 10px}
+.hero{padding:clamp(22px,5vh,56px) 0 clamp(18px,3vh,32px)}
+.one{font-size:clamp(17px,1.6vw,21px);line-height:1.4;color:var(--sub);margin:14px 0 18px;max-width:46ch}
+.cta-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.hint{font-size:14px;color:var(--sub)}
+.btn{display:inline-block;background:var(--ink);color:#fff;text-decoration:none;padding:11px 16px;font-weight:600;font-size:15px;border:2px solid var(--ink);font-family:inherit;cursor:pointer}
+.btn.buy{background:var(--m);border-color:var(--m)}.btn.alt{background:transparent;color:var(--ink)}
+.sys{display:grid;gap:14px 40px;border-top:1px solid var(--line);padding:22px 0}
+.def{font-size:17px;line-height:1.45;margin:0;max-width:60ch}
+.parts{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr;gap:8px}
+.parts li{background:#F4F1EA;padding:12px 14px;font-size:15px;line-height:1.4;color:var(--sub)}
+.parts b{display:block;color:var(--ink);font-size:16px;margin-bottom:2px}
+.line{margin:0;font-size:15px;line-height:1.45;color:var(--sub);max-width:70ch}
+.buy-box{border-left:3px solid var(--m);padding:4px 0 4px 16px}
+.pay{font-size:clamp(22px,2.2vw,28px);font-weight:700;letter-spacing:-.015em;line-height:1.15;margin:0 0 8px}
+.pay small{display:block;font-size:14px;font-weight:600;letter-spacing:0;color:var(--sub);margin-top:2px}.k{color:var(--m)}
+.amt{margin:0 0 12px;font-size:15px;line-height:1.5}.amt .lbl{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--c)}
+.amt s{color:var(--sub)}.amt b{font-size:22px}.left{font-weight:700;color:var(--m)}
+.tiers{display:grid;grid-template-columns:1fr 1fr;gap:12px;border-top:1px solid var(--line);padding:20px 0}
+.tier{background:#1F1F1F;color:#EDE9E1;padding:16px 16px 18px;display:flex;flex-direction:column}
+.tier .tag{color:#69f2c4}.tier h2{margin-bottom:8px}.tier p{margin:0 0 10px;font-size:15px;line-height:1.45;color:#d9d4cb}
+.tier .tp{font-weight:600;color:#fff;margin-top:auto}.tier .btn{background:#EDE9E1;color:#1F1F1F;border-color:#EDE9E1;align-self:flex-start}
+footer{font-size:13px;color:var(--sub);padding:10px 0 24px}
+dialog{border:0;padding:24px;max-width:min(520px,92vw);background:#F4F1EA;color:var(--ink)}dialog::backdrop{background:#0008}
+dialog ul{padding-left:18px;margin:12px 0}dialog li{margin-bottom:6px;line-height:1.45}dialog a{color:var(--ink)}
+@media(min-width:900px){
+main{display:grid;grid-template-columns:1.05fr 1fr;column-gap:40px;align-items:start}
+.hero{grid-column:1;padding:24px 0 14px}.sys{display:contents}
+h1{font-size:clamp(34px,3.4vw,48px)}
+.def{grid-column:1;font-size:16px;border-top:1px solid var(--line);padding-top:14px}
+.line{grid-column:1;margin-top:10px}.buy-box{grid-column:1;margin-top:14px}
+.parts{grid-column:2;grid-row:1;grid-template-columns:1fr 1fr;margin-top:24px;align-self:start}
+.parts li{min-height:118px}
+.tiers{grid-column:2;grid-row:2/span 3;margin-top:0;padding:12px 0 0;align-self:start}.tier h2{font-size:20px}.tier p{font-size:14px}footer{grid-column:1/-1}}
+@media(max-width:620px){.tiers{grid-template-columns:1fr}.parts li{padding:10px 12px}}
