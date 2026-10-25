@@ -24,7 +24,7 @@ None.
   - At 50 sales, closeIntroIfCapped() deactivates the intro link via STRIPE_LINK_KEY, or emails Erik if that key isn't set.
 - Remote mini FACT: $1,750, remote, call first.
 - Friction Audit FACT: $4,500 plus travel ($2,250 plus travel up front, $1,125 on arrival, $1,125 on completion).
-- Booking link for both calls: https://calendar.app.google/4mgKAmouyucz7jk79
+- Booking link for both calls: https://calendar.app.google/Xu3RZNM4nEuATHee7
 
 ## Open items (2026-10-23)
 - Test promo codes KSLIVETEST1023, KSLIVE2 and KSDIAG10 are still active; deactivate them in the Stripe dashboard.
